@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>手谈</title>
+</head>
+<body>
+<div id="main">
+	<div id="nav">
+		<h1>手谈</h1>
+	</div>
+	<div id="func">
+		<button type="button" onclick="restart()">重开</button>
+		<button type="button" onclick="huiqi()">悔棋</button>
+	</div>
+	<div id="noteBroad">
+		<h1>告示牌</h1>
+	</div>
+	<div id="note">
+		<div id="text">
+		</div>
+	</div>
+	<div id="container">
+<!--		<div id="broad"></div>-->
+		<canvas onclick="locate(event)" id="myCanvas" height="600px" width="600px">请使用更友好的浏览器打开本页面。</canvas>
+		<script src="js/controller.js"></script>
+	</div>
+</div>
+</body>
+</html>

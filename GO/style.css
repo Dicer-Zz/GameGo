@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+/*body {*/
+/*    background-image: url("background.jpg");*/
+/*}*/
+#main {
+    position: absolute;
+    left: 340px;
+}
+#container {
+    position: relative;
+    /*left: 20%;*/
+}
+#nav {
+    margin-top: 40px;
+}
+#nav h1 {
+    position: absolute;
+    left: -300px;
+    /*top: 50px;*/
+    font-size: 100px;
+}
+#func {
+    position: absolute;
+    left: -300px;
+    top: 200px;
+}
+#func button {
+    height: 50px;
+    width: 100px;
+    background-color: #008CBA;
+    font-family: '幼圆';
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+#broad {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    /*top: 80px;*/
+    background-color: #cc9900;
+}
+#noteBroad {
+    position: absolute;
+    right: -122px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: '幼圆';
+}
+#note {
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    right: -320px;
+    top: 100px;
+    /*background-color: blue;*/
+    border: 3px dashed #aaddbb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#note p {
+    overflow: hidden;
+}
